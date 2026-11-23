@@ -67,10 +67,7 @@ The project integrates two primary public data sources to construct a company-ye
 - **Dataset Scale**:
   - **31,241** company-year observations across **2,931** distinct firms.
   - Target Variable: Binary indicator ($y \in \{0, 1\}$) denoting whether the filing coincides with an identified SEC AAER fraud period.
-- **Intermediate Artifacts**:
-  - `financial_with_aaer_labels.csv` / `short_financials_df(1).csv`: Structured financial variables with AAER flags.
-  - `firm_years.json` & `matched_mda.csv`: Extracted 10-K Item 7 (MD&A) text passages.
-  - `final_financial_mda_dataset.csv`: Cleaned, joined multimodal dataset.
+
 
 > [!NOTE]
 > In compliance with distribution guidelines, raw dataset files are not hosted inside this git repository. Please download the respective files from Kaggle and Zenodo and place them in the project data path or adjust paths in `notebook/fintech_data_merger.ipynb`.
